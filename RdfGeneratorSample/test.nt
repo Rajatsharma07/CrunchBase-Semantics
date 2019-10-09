@@ -1,0 +1,7 @@
+<http://www.example.org/cb_objects/c:1> <http://www.example.org/cb_objects#row=1/name> "WetName" .
+<http://www.example.org/cb_objects#row=1/c:1> <http://www.example.org/cb_objects#row=1/entity_type> "Company" .
+<http://www.example.org/cb_objects#row=2/c:2> <http://www.example.org/cb_objects#row=2/entity_type> "Company" .
+
+
+
+

@@ -1,0 +1,37 @@
+import nltk
+
+# http://streamhacker.com/2014/12/29/word2vec-nltk/
+#https://www.quora.com/How-can-I-find-the-subject-and-the-object-of-a-sentence-using-NLTK-in-python
+#http://stackoverflow.com/questions/30812859/extract-word-from-a-list-of-synsets-in-nltk-for-python
+from nltk.corpus import wordnet as wn
+
+for synset in wn.synsets('graduate'):
+#    print synset.hypernyms()
+    print (synset.lexname)
+#    for le(mma in synset.lemmas():
+#       print lemma.name()
+
+
+
+print wn.synset('graduate.n.1').root_hypernyms()
+
+
+
+'''
+try:
+    import gensim
+except NameError:
+    print('gensim is not installed')
+
+print "Word 2 Vector"
+
+from gensim.models import Word2Vec
+from nltk.corpus import brown, movie_reviews, treebank
+b = Word2Vec(brown.sents())
+print b.most_similar('company', topn=5)
+
+t = Word2Vec(treebank.sents())
+print t.most_similar('company', topn=5)
+
+'''
+

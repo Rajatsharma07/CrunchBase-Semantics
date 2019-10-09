@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/acquisitions.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=1/CapStone+Bank">
+    <acquired_on>2013-11-01</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/capstone-bank</acquiree_cb_url>
+    <acquiree_city>Raleigh</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Raleigh</acquiree_region>
+    <acquiree_uuid>6a9f8729-a3d6-fb1c-25f2-e2d2013c771b</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/newbridge-bank</acquirer_cb_url>
+    <acquirer_city>Greensboro</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>NewBridge Bank</acquirer_name>
+    <acquirer_region>Greensboro</acquirer_region>
+    <acquirer_state_code>NC</acquirer_state_code>
+    <acquirer_uuid>f96b6355-fd9f-e5aa-243a-d27fb0868d25</acquirer_uuid>
+    <acquisition_uuid>a06073c9-d9f1-36ec-7172-006e0e21f51d</acquisition_uuid>
+    <created_at>2013-11-04 03:17:05</created_at>
+    <price_usd>64000000</price_usd>
+    <state_code>NC</state_code>
+    <updated_at>2016-09-09 12:33:43.435556</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=10/iWeb+Technologies">
+    <acquired_on>2013-10-30</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/iweb-technologies</acquiree_cb_url>
+    <acquiree_city>Montréal</acquiree_city>
+    <acquiree_country_code>CAN</acquiree_country_code>
+    <acquiree_region>Montreal</acquiree_region>
+    <acquiree_uuid>d6a68816-c544-70e0-f464-876c96bca065</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/internap</acquirer_cb_url>
+    <acquirer_city>Atlanta</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Internap</acquirer_name>
+    <acquirer_region>Atlanta</acquirer_region>
+    <acquirer_state_code>GA</acquirer_state_code>
+    <acquirer_uuid>e000d3af-3229-2066-339f-460687af928e</acquirer_uuid>
+    <acquisition_uuid>1351f5cb-46df-852a-7e2c-d26e034c5bc6</acquisition_uuid>
+    <created_at>2013-10-31 03:27:52</created_at>
+    <price_usd>145000000</price_usd>
+    <state_code>QC</state_code>
+    <updated_at>2016-09-17 11:19:35.050051</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=11/ServiceMesh">
+    <acquired_on>2013-10-30</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/servicemesh</acquiree_cb_url>
+    <acquiree_city>Santa Monica</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Los Angeles</acquiree_region>
+    <acquiree_uuid>d60035bc-0073-fcc1-2b8c-285baa171857</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/csc</acquirer_cb_url>
+    <acquirer_city>Falls Church</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>CSC</acquirer_name>
+    <acquirer_region>Washington, D.C.</acquirer_region>
+    <acquirer_state_code>VA</acquirer_state_code>
+    <acquirer_uuid>7f5d8bcd-5e3d-97ec-281d-8e176c7c8330</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>d55a091a-3fd5-096b-814d-d51d5142efac</acquisition_uuid>
+    <created_at>2013-10-30 22:00:23</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2016-09-17 10:33:55.495952</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=12/Soluto">
+    <acquired_on>2013-10-30</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/soluto</acquiree_cb_url>
+    <acquiree_city>Tel Aviv</acquiree_city>
+    <acquiree_country_code>ISR</acquiree_country_code>
+    <acquiree_region>Tel Aviv</acquiree_region>
+    <acquiree_uuid>8c42720b-127a-4aa8-dc15-5eac0dd38028</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/asurion</acquirer_cb_url>
+    <acquirer_city>Nashville</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Asurion</acquirer_name>
+    <acquirer_region>Nashville</acquirer_region>
+    <acquirer_state_code>TN</acquirer_state_code>
+    <acquirer_uuid>9cf163fb-1f77-0b6d-21ef-c9c6a36f70f0</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>f1b535be-ff16-ca52-68d2-3d4dbfb273f2</acquisition_uuid>
+    <created_at>2013-10-30 09:17:12</created_at>
+    <price_usd>130000000</price_usd>
+    <updated_at>2016-06-15 07:58:32.145371</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=13/Avado">
+    <acquired_on>2013-10-29</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/avado</acquiree_cb_url>
+    <acquiree_city>Seattle</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Seattle</acquiree_region>
+    <acquiree_uuid>3ec83fc3-ea07-85d2-de91-b07f53fb8dc6</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/webmd</acquirer_cb_url>
+    <acquirer_city>New York</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>WebMD</acquirer_name>
+    <acquirer_region>New York City</acquirer_region>
+    <acquirer_state_code>NY</acquirer_state_code>
+    <acquirer_uuid>0cf0a225-64eb-2ca3-0a51-6b91a12f3877</acquirer_uuid>
+    <acquisition_uuid>2f476892-752a-1f74-aea4-350cbb1d63b7</acquisition_uuid>
+    <created_at>2013-10-29 22:28:45</created_at>
+    <state_code>WA</state_code>
+    <updated_at>2014-04-20 11:59:30</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=14/Net+Optics">
+    <acquired_on>2013-10-29</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/net-optics</acquiree_cb_url>
+    <acquiree_city>Santa Clara</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>SF Bay Area</acquiree_region>
+    <acquiree_uuid>30b45407-fc66-b30c-a98d-240e1c65b8b1</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/ixia</acquirer_cb_url>
+    <acquirer_city>Calabasas</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>IXIA</acquirer_name>
+    <acquirer_region>Los Angeles</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>70d38275-5a5f-e583-b308-321618fdb15d</acquirer_uuid>
+    <acquisition_uuid>59099b7c-69ac-d201-4206-ac26360b5911</acquisition_uuid>
+    <created_at>2013-10-30 03:17:54</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2014-04-20 11:59:30</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=15/Perka%2c+Inc.">
+    <acquired_on>2013-10-29</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/perka-inc</acquiree_cb_url>
+    <acquiree_city>Portland</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Portland, Oregon</acquiree_region>
+    <acquiree_uuid>2d029828-b999-754d-c08c-b6e1b4536247</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/first-data-corporation</acquirer_cb_url>
+    <acquirer_city>Atlanta</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>First Data Corporation</acquirer_name>
+    <acquirer_region>Atlanta</acquirer_region>
+    <acquirer_state_code>GA</acquirer_state_code>
+    <acquirer_uuid>8de4fcd1-e336-f02d-b087-3b7d9d190a4e</acquirer_uuid>
+    <acquisition_uuid>1f15dd69-37f6-ab7a-f4a8-f138a0449936</acquisition_uuid>
+    <created_at>2013-10-29 19:02:28</created_at>
+    <state_code>OR</state_code>
+    <updated_at>2014-04-20 11:59:30</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=16/The+Now+Factory">
+    <acquired_on>2013-10-29</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/the-now-factory</acquiree_cb_url>
+    <acquiree_city>Dublin</acquiree_city>
+    <acquiree_country_code>IRL</acquiree_country_code>
+    <acquiree_region>Dublin</acquiree_region>
+    <acquiree_uuid>6f0a203d-4e09-0821-fb78-6d28ffa88d12</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/ibm</acquirer_cb_url>
+    <acquirer_city>Armonk</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>IBM</acquirer_name>
+    <acquirer_region>New York City</acquirer_region>
+    <acquirer_state_code>NY</acquirer_state_code>
+    <acquirer_uuid>fc5fbe7a-562d-d577-b05e-46797caa134c</acquirer_uuid>
+    <acquisition_uuid>8d3f6d7a-5bee-5d91-c975-9e8ce3d5776b</acquisition_uuid>
+    <created_at>2013-10-02 11:13:17</created_at>
+    <updated_at>2015-06-09 22:15:01</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=17/Vidacare">
+    <acquired_on>2013-10-29</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/vidacare</acquiree_cb_url>
+    <acquiree_city>San Antonio</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>San Antonio</acquiree_region>
+    <acquiree_uuid>106952db-53a0-da57-f0bf-5721a9221862</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/teleflex</acquirer_cb_url>
+    <acquirer_city>Royersford</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Teleflex</acquirer_name>
+    <acquirer_region>Philadelphia</acquirer_region>
+    <acquirer_state_code>PA</acquirer_state_code>
+    <acquirer_uuid>87c58be5-6cef-2a48-fd5a-9a448fe209d3</acquirer_uuid>
+    <acquisition_uuid>11610e78-4819-0324-102d-38025fe3fe69</acquisition_uuid>
+    <created_at>2013-10-31 03:00:34</created_at>
+    <state_code>TX</state_code>
+    <updated_at>2014-04-20 11:59:38</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=18/Chellomedia">
+    <acquired_on>2013-10-28</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/chellomedia</acquiree_cb_url>
+    <acquiree_uuid>7c358fd3-821d-efec-e1f5-82be5d883107</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/amc</acquirer_cb_url>
+    <acquirer_city>New York</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>AMC</acquirer_name>
+    <acquirer_region>New York City</acquirer_region>
+    <acquirer_state_code>NY</acquirer_state_code>
+    <acquirer_uuid>4d7e1eac-e7e3-3965-5f9f-8663360d27a9</acquirer_uuid>
+    <acquisition_uuid>32566ddc-1333-380f-cead-603759549c54</acquisition_uuid>
+    <created_at>2013-10-28 11:36:45</created_at>
+    <price>750000000</price>
+    <price_currency_code>EUR</price_currency_code>
+    <updated_at>2014-04-20 11:59:27</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=19/Eaton+National+Bank+%26+Trust+Co">
+    <acquired_on>2013-10-28</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/eaton-national-bank-trust-co</acquiree_cb_url>
+    <acquiree_city>Eaton</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Dayton</acquiree_region>
+    <acquiree_uuid>2d026d2a-700c-ff42-a69e-7fd6abf5f705</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/lcnb-national-bank</acquirer_cb_url>
+    <acquirer_city>Lebanon</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>LCNB National Bank</acquirer_name>
+    <acquirer_region>Cincinnati</acquirer_region>
+    <acquirer_state_code>OH</acquirer_state_code>
+    <acquirer_uuid>5d704486-6164-5796-d925-8874ccd671f4</acquirer_uuid>
+    <acquisition_uuid>e04f076d-1365-a341-dcbf-f3875062548b</acquisition_uuid>
+    <created_at>2013-10-29 03:51:33</created_at>
+    <state_code>OH</state_code>
+    <updated_at>2014-04-20 11:59:29</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=2/Everis">
+    <acquired_on>2013-11-01</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/everis</acquiree_cb_url>
+    <acquiree_city>Madrid</acquiree_city>
+    <acquiree_country_code>ESP</acquiree_country_code>
+    <acquiree_region>Madrid</acquiree_region>
+    <acquiree_uuid>e78721f5-4a71-923a-88ce-2ccf79f94730</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/ntt-data</acquirer_cb_url>
+    <acquirer_city>Tokyo</acquirer_city>
+    <acquirer_country_code>JPN</acquirer_country_code>
+    <acquirer_name>NTT Data</acquirer_name>
+    <acquirer_region>Tokyo</acquirer_region>
+    <acquirer_uuid>c9e406c1-ad4c-8415-7b43-b9e3abdc995a</acquirer_uuid>
+    <acquisition_uuid>c6461b42-24c8-59a4-0856-c02f8ce6b067</acquisition_uuid>
+    <created_at>2013-11-04 04:27:41</created_at>
+    <price>559000000</price>
+    <price_currency_code>EUR</price_currency_code>
+    <updated_at>2014-04-20 11:59:44</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=20/Shipwire">
+    <acquired_on>2013-10-28</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/shipwire</acquiree_cb_url>
+    <acquiree_city>Palo Alto</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>SF Bay Area</acquiree_region>
+    <acquiree_uuid>302aa2b4-6369-a1b3-0a88-669693e026ce</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/ingram-micro</acquirer_cb_url>
+    <acquirer_city>Santa Ana</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Ingram Micro</acquirer_name>
+    <acquirer_region>Orange County, California</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>35eee95f-db61-6ab6-b379-9b016b6dff46</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>ab2a7b41-67b1-b388-8ca4-55dfbb3d6480</acquisition_uuid>
+    <created_at>2013-10-29 02:52:47</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2016-08-13 08:28:43.76111</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=21/Virtela+Technology+Services">
+    <acquired_on>2013-10-28</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/virtela-technology-services</acquiree_cb_url>
+    <acquiree_city>Greenwood Village</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Denver</acquiree_region>
+    <acquiree_uuid>6f5c097c-4c37-fa03-a605-abb0b2696608</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/ntt-communications</acquirer_cb_url>
+    <acquirer_city>Tokyo</acquirer_city>
+    <acquirer_country_code>JPN</acquirer_country_code>
+    <acquirer_name>NTT Communications</acquirer_name>
+    <acquirer_region>Tokyo</acquirer_region>
+    <acquirer_uuid>4fff24d4-d26b-a143-c5d6-f68309db1a06</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>a025c4a2-8b94-e95a-a080-950029106f32</acquisition_uuid>
+    <created_at>2013-10-28 12:27:16</created_at>
+    <price_usd>525000000</price_usd>
+    <state_code>CO</state_code>
+    <updated_at>2016-09-12 08:02:01.108473</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=22/DIIG">
+    <acquired_on>2013-10-27</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/diig</acquiree_cb_url>
+    <acquiree_country_code>GBR</acquiree_country_code>
+    <acquiree_uuid>567e9fe5-8cb1-3d9d-b1de-deb65ebd1033</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/dmgt-plc</acquirer_cb_url>
+    <acquirer_city>London</acquirer_city>
+    <acquirer_country_code>GBR</acquirer_country_code>
+    <acquirer_name>DMGT</acquirer_name>
+    <acquirer_region>London</acquirer_region>
+    <acquirer_uuid>5315ab35-0363-f925-a26f-174aa7cea182</acquirer_uuid>
+    <acquisition_uuid>6a56d712-41a4-b033-9ec3-4e74336dff41</acquisition_uuid>
+    <created_at>2013-10-28 11:13:33</created_at>
+    <price>75000000</price>
+    <price_currency_code>GBP</price_currency_code>
+    <updated_at>2014-04-20 11:59:27</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=23/Endurance+Lending+Network">
+    <acquired_on>2013-10-25</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/endurance-lending-network</acquiree_cb_url>
+    <acquiree_city>San Francisco</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>SF Bay Area</acquiree_region>
+    <acquiree_uuid>4bdd6852-868a-d34f-1c95-a662736db5cd</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/funding-circle</acquirer_cb_url>
+    <acquirer_city>London</acquirer_city>
+    <acquirer_country_code>GBR</acquirer_country_code>
+    <acquirer_name>Funding Circle</acquirer_name>
+    <acquirer_region>London</acquirer_region>
+    <acquirer_uuid>ac6cfe98-a031-1729-7816-d3387c300a25</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>7b0cf7c5-eba5-6649-c5be-664c56eb4e47</acquisition_uuid>
+    <created_at>2013-10-25 16:08:35</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2016-09-24 08:42:18.975513</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=24/JMI">
+    <acquired_on>2013-10-25</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/jmi</acquiree_cb_url>
+    <acquiree_city>Zionsville</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Indianapolis</acquiree_region>
+    <acquiree_uuid>637a881f-1eaa-a51e-8fda-17c62b464acc</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/chime-communications-plc</acquirer_cb_url>
+    <acquirer_city>London</acquirer_city>
+    <acquirer_country_code>GBR</acquirer_country_code>
+    <acquirer_name>Chime Communications PLC</acquirer_name>
+    <acquirer_region>London</acquirer_region>
+    <acquirer_uuid>bfce8189-064a-af9a-c784-2ab0d17db98c</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>e99a990b-9816-76f8-a89a-6509e7e1d8dd</acquisition_uuid>
+    <created_at>2013-10-25 10:54:48</created_at>
+    <price>43700000</price>
+    <price_currency_code>GBP</price_currency_code>
+    <price_usd>70697483.79512289</price_usd>
+    <state_code>IN</state_code>
+    <updated_at>2016-09-09 10:09:30.646478</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=25/The+Wellness+Corporation">
+    <acquired_on>2013-10-25</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/the-wellness-corporation</acquiree_cb_url>
+    <acquiree_city>Shrewsbury</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Worcester</acquiree_region>
+    <acquiree_uuid>7d613644-fbaf-cb06-fab7-0fd80e5aaa9f</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/e4-health</acquirer_cb_url>
+    <acquirer_city>Irving</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>E4 Health</acquirer_name>
+    <acquirer_region>Dallas</acquirer_region>
+    <acquirer_state_code>TX</acquirer_state_code>
+    <acquirer_uuid>835c5adf-5527-341b-3615-9d769da9e2f6</acquirer_uuid>
+    <acquisition_uuid>25d51b8a-c454-808e-7a4b-4dbb999c8ae1</acquisition_uuid>
+    <created_at>2013-10-25 12:30:01</created_at>
+    <state_code>MA</state_code>
+    <updated_at>2014-04-20 11:59:24</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=26/Arc90">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/arc90</acquiree_cb_url>
+    <acquiree_city>New York</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>New York City</acquiree_region>
+    <acquiree_uuid>7a9aa162-144c-4081-c260-74a696c547a4</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/sfx-entertainment</acquirer_cb_url>
+    <acquirer_city>New York</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>SFX Entertainment</acquirer_name>
+    <acquirer_region>New York City</acquirer_region>
+    <acquirer_state_code>NY</acquirer_state_code>
+    <acquirer_uuid>767fba43-e72f-787b-837c-03a6c8a99835</acquirer_uuid>
+    <acquisition_uuid>31cca58f-685e-8d16-e9a3-e20c2d8fd813</acquisition_uuid>
+    <created_at>2013-10-24 18:21:30</created_at>
+    <state_code>NY</state_code>
+    <updated_at>2014-04-20 11:59:21</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=27/BigMachines">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/bigmachines</acquiree_cb_url>
+    <acquiree_city>Deerfield</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Chicago</acquiree_region>
+    <acquiree_uuid>a1197186-76de-f803-ba86-5d8ce49a542f</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/oracle</acquirer_cb_url>
+    <acquirer_city>Redwood Shores</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Oracle Corporation</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>bef5bd4b-72c6-7877-d7ab-8bbe43f7bda7</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>e856d7c1-27cd-5f00-eca5-d2e69a00a20f</acquisition_uuid>
+    <created_at>2013-10-24 04:34:10</created_at>
+    <price_usd>400000000</price_usd>
+    <state_code>IL</state_code>
+    <updated_at>2016-09-14 07:11:02.404315</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=28/Cameleon+Software">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/cameleon-software</acquiree_cb_url>
+    <acquiree_city>Skokie</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Chicago</acquiree_region>
+    <acquiree_uuid>1606d4a2-d3e4-69ef-ab0f-68927a13da77</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/pros-holdings</acquirer_cb_url>
+    <acquirer_city>Houston</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>PROS Holdings</acquirer_name>
+    <acquirer_region>Houston</acquirer_region>
+    <acquirer_state_code>TX</acquirer_state_code>
+    <acquirer_uuid>19ad3d00-896d-5ab4-a9d3-5e0acde02c90</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>b4ebdd60-885c-8ff6-fcde-0b2d8689a496</acquisition_uuid>
+    <created_at>2013-10-24 18:07:55</created_at>
+    <price_usd>33000000</price_usd>
+    <state_code>IL</state_code>
+    <updated_at>2016-06-29 12:31:32.821396</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=29/Celesio">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/celesio</acquiree_cb_url>
+    <acquiree_city>Stuttgart</acquiree_city>
+    <acquiree_country_code>DEU</acquiree_country_code>
+    <acquiree_region>Stuttgart</acquiree_region>
+    <acquiree_uuid>98d6bffa-32cc-55af-5c16-cf1e8f9f8b5c</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/mckesson</acquirer_cb_url>
+    <acquirer_city>San Francisco</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>McKesson</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>1c41f4ce-92b4-371f-717b-69f7b8386dd0</acquirer_uuid>
+    <acquisition_uuid>4fdf7628-23ab-cfa2-f7a7-bc735172145c</acquisition_uuid>
+    <created_at>2013-10-25 04:23:18</created_at>
+    <updated_at>2014-04-20 11:59:23</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=3/Aggregate+Knowledge">
+    <acquired_on>2013-10-31</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/aggregateknowledge</acquiree_cb_url>
+    <acquiree_city>San Mateo</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>SF Bay Area</acquiree_region>
+    <acquiree_uuid>3d02b92f-668f-1a97-5c12-5d7646ae3ffe</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/neustar</acquirer_cb_url>
+    <acquirer_city>Sterling</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Neustar</acquirer_name>
+    <acquirer_region>Washington, D.C.</acquirer_region>
+    <acquirer_state_code>VA</acquirer_state_code>
+    <acquirer_uuid>9b98a18e-03ed-b615-8a06-c50a4c0ddb09</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>ec02267c-b6a0-a94f-b53a-bf4601bc578a</acquisition_uuid>
+    <created_at>2013-10-31 00:27:56</created_at>
+    <price_usd>119000000</price_usd>
+    <state_code>CA</state_code>
+    <updated_at>2016-06-17 10:47:10.694246</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=30/Consolidated+Graphics">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/consolidated-graphics</acquiree_cb_url>
+    <acquiree_city>Houston</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Houston</acquiree_region>
+    <acquiree_uuid>473ffaff-d1d7-c052-18e5-5f759612cf71</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/rr-donnelley</acquirer_cb_url>
+    <acquirer_city>Chicago</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>RR Donnelley</acquirer_name>
+    <acquirer_region>Chicago</acquirer_region>
+    <acquirer_state_code>IL</acquirer_state_code>
+    <acquirer_uuid>4f9f31eb-c970-4c16-4488-ddf9ad5af9b0</acquirer_uuid>
+    <acquisition_uuid>60316e2e-ea18-3d6e-f899-fb926a41f62c</acquisition_uuid>
+    <created_at>2013-10-25 03:52:29</created_at>
+    <price_usd>620000000</price_usd>
+    <state_code>TX</state_code>
+    <updated_at>2016-09-02 14:50:58.487295</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=31/Fame+House">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/fame-house</acquiree_cb_url>
+    <acquiree_city>Philadelphia</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Philadelphia</acquiree_region>
+    <acquiree_uuid>6e02b995-65df-c631-4ebe-c40103adc3ab</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/sfx-entertainment</acquirer_cb_url>
+    <acquirer_city>New York</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>SFX Entertainment</acquirer_name>
+    <acquirer_region>New York City</acquirer_region>
+    <acquirer_state_code>NY</acquirer_state_code>
+    <acquirer_uuid>767fba43-e72f-787b-837c-03a6c8a99835</acquirer_uuid>
+    <acquisition_uuid>0daafeba-8b47-b157-1eb1-0e1255e3bafa</acquisition_uuid>
+    <created_at>2013-10-24 18:21:30</created_at>
+    <state_code>PA</state_code>
+    <updated_at>2014-04-20 11:59:21</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=32/ProSep">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/prosep</acquiree_cb_url>
+    <acquiree_city>Houston</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Houston</acquiree_region>
+    <acquiree_uuid>05b5b497-a79e-787b-f4e9-1684c7da7175</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/pwa</acquirer_cb_url>
+    <acquirer_city>Wooster</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>PWA</acquirer_name>
+    <acquirer_region>Akron - Canton</acquirer_region>
+    <acquirer_state_code>OH</acquirer_state_code>
+    <acquirer_uuid>b588ae92-81b1-08bb-866c-1ab4eff8154a</acquirer_uuid>
+    <acquisition_uuid>3deebf65-67fc-932a-b422-548394a04a74</acquisition_uuid>
+    <created_at>2013-10-25 03:13:13</created_at>
+    <state_code>TX</state_code>
+    <updated_at>2014-04-20 11:59:22</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=33/Timco+Aviation+Services">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/timco-aviation-services</acquiree_cb_url>
+    <acquiree_city>Greensboro</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Greensboro</acquiree_region>
+    <acquiree_uuid>44e8c660-a745-dfa9-5405-f91a1d6dc5da</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/haeco</acquirer_cb_url>
+    <acquirer_city>Lantau</acquirer_city>
+    <acquirer_country_code>HKG</acquirer_country_code>
+    <acquirer_name>HAECO</acquirer_name>
+    <acquirer_region>HKG - Other</acquirer_region>
+    <acquirer_uuid>acbf057a-de1c-e806-53c8-64dcdf4391d8</acquirer_uuid>
+    <acquisition_uuid>9baa4c0e-be2c-ca2c-b270-6c69d0ee8d28</acquisition_uuid>
+    <created_at>2013-10-25 09:45:27</created_at>
+    <state_code>NC</state_code>
+    <updated_at>2014-04-20 11:59:23</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=34/Tunezy">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/tunezy</acquiree_cb_url>
+    <acquiree_city>Toronto</acquiree_city>
+    <acquiree_country_code>CAN</acquiree_country_code>
+    <acquiree_region>Toronto</acquiree_region>
+    <acquiree_uuid>81f51533-747a-e87c-6750-f91a22f3ec6a</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/sfx-entertainment</acquirer_cb_url>
+    <acquirer_city>New York</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>SFX Entertainment</acquirer_name>
+    <acquirer_region>New York City</acquirer_region>
+    <acquirer_state_code>NY</acquirer_state_code>
+    <acquirer_uuid>767fba43-e72f-787b-837c-03a6c8a99835</acquirer_uuid>
+    <acquisition_uuid>0b9a392d-d4e5-7d3d-c784-1a3423e32a73</acquisition_uuid>
+    <created_at>2013-10-24 18:21:30</created_at>
+    <state_code>ON</state_code>
+    <updated_at>2014-04-20 11:59:22</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=35/Washington+Banking">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/washington-banking</acquiree_cb_url>
+    <acquiree_city>Oak Harbor</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>WA - Other</acquiree_region>
+    <acquiree_uuid>25ca34e3-2b2a-1e8f-13da-24c890ad853c</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/heritage-financial</acquirer_cb_url>
+    <acquirer_city>Olympia</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Heritage Financial</acquirer_name>
+    <acquirer_region>Seattle</acquirer_region>
+    <acquirer_state_code>WA</acquirer_state_code>
+    <acquirer_uuid>b4e393f7-9715-52a9-2823-a09865a7362b</acquirer_uuid>
+    <acquisition_uuid>265a06f3-6885-a57b-9098-9f09c1119634</acquisition_uuid>
+    <created_at>2013-10-24 05:28:11</created_at>
+    <state_code>WA</state_code>
+    <updated_at>2014-04-20 11:59:20</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=36/ZeroVM">
+    <acquired_on>2013-10-24</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/zerovm</acquiree_cb_url>
+    <acquiree_city>San Antonio</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>San Antonio</acquiree_region>
+    <acquiree_uuid>7786aa52-1358-aa12-18c0-5e009490cd7d</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/rackspace</acquirer_cb_url>
+    <acquirer_city>San Antonio</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Rackspace</acquirer_name>
+    <acquirer_region>San Antonio</acquirer_region>
+    <acquirer_state_code>TX</acquirer_state_code>
+    <acquirer_uuid>545431fb-8c10-7fdd-e6be-2efd4048c558</acquirer_uuid>
+    <acquisition_uuid>1e15db88-4831-8270-7e46-0392d599cd9b</acquisition_uuid>
+    <created_at>2013-11-13 00:15:15</created_at>
+    <state_code>TX</state_code>
+    <updated_at>2015-07-16 00:17:48</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=37/Aurora+Networks">
+    <acquired_on>2013-10-23</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/aurora-networks</acquiree_cb_url>
+    <acquiree_city>Santa Clara</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>SF Bay Area</acquiree_region>
+    <acquiree_uuid>06a08607-3bfd-3cc1-d63e-fce26ded25dd</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/pace</acquirer_cb_url>
+    <acquirer_city>England</acquirer_city>
+    <acquirer_country_code>DEU</acquirer_country_code>
+    <acquirer_name>Pace</acquirer_name>
+    <acquirer_region>DEU - Other</acquirer_region>
+    <acquirer_uuid>b556e522-8c6a-7ae4-8b1c-73c216539446</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>47f80f57-cf6a-1d2b-2ed1-776feeee36fb</acquisition_uuid>
+    <created_at>2013-10-23 09:25:27</created_at>
+    <price_usd>310000000</price_usd>
+    <state_code>CA</state_code>
+    <updated_at>2016-06-29 11:39:07.093761</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=38/Level+Up+Analytics">
+    <acquired_on>2013-10-23</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/level-up-analytics</acquiree_cb_url>
+    <acquiree_city>Mountain View</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>SF Bay Area</acquiree_region>
+    <acquiree_uuid>5a68bb23-2ce4-b358-8cb0-228986ad3473</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/intuit</acquirer_cb_url>
+    <acquirer_city>Mountain View</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Intuit</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>fbef6457-9149-72cf-af57-7cfbe15c05f8</acquirer_uuid>
+    <acquisition_uuid>619dc599-3687-fdbd-786f-b0a702a0307a</acquisition_uuid>
+    <created_at>2013-10-23 21:46:12</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2014-04-20 11:59:18</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=39/Liberty+Bancshares">
+    <acquired_on>2013-10-23</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/liberty-bancshares</acquiree_cb_url>
+    <acquiree_city>Springfield</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Branson</acquiree_region>
+    <acquiree_uuid>7b5461c8-a7eb-fe48-0abe-4a05edf1ab0c</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/home-bancshares</acquirer_cb_url>
+    <acquirer_city>Conway</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Home BancShares</acquirer_name>
+    <acquirer_region>Little Rock</acquirer_region>
+    <acquirer_state_code>AR</acquirer_state_code>
+    <acquirer_uuid>940b32f7-0f8f-4522-1ba8-7acce72614bc</acquirer_uuid>
+    <acquisition_uuid>1c18b8c2-4ffc-dae5-f5c8-7feffc6d630d</acquisition_uuid>
+    <created_at>2013-10-24 04:52:11</created_at>
+    <state_code>MO</state_code>
+    <updated_at>2014-04-20 11:59:20</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=4/Genesis+Biopharma">
+    <acquired_on>2013-10-31</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/genesis-biopharma</acquiree_cb_url>
+    <acquiree_city>Los Angeles</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Los Angeles</acquiree_region>
+    <acquiree_uuid>2df6547c-8cd0-49d8-e68c-2a63e0aaae8a</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/lion-biotechnologies</acquirer_cb_url>
+    <acquirer_city>New York</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Lion Biotechnologies</acquirer_name>
+    <acquirer_region>New York City</acquirer_region>
+    <acquirer_state_code>NY</acquirer_state_code>
+    <acquirer_uuid>36e66487-2f22-6ed8-e1c5-86127f99fa8f</acquirer_uuid>
+    <acquisition_uuid>5c45700d-f548-d708-5be9-a7620baea620</acquisition_uuid>
+    <created_at>2013-11-01 06:46:58</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2014-04-20 11:59:41</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=40/LookFlow">
+    <acquired_on>2013-10-23</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/lookflow</acquiree_cb_url>
+    <acquiree_city>Mountain View</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>SF Bay Area</acquiree_region>
+    <acquiree_uuid>71130eaf-3b68-e644-4bb1-e4954fd413ad</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/yahoo</acquirer_cb_url>
+    <acquirer_city>Sunnyvale</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Yahoo!</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>71d51015-1800-ed61-8bc3-8dca49caec15</acquirer_uuid>
+    <acquisition_uuid>a942826a-0d6a-ab4d-f350-4e5fb000a94d</acquisition_uuid>
+    <created_at>2013-10-23 17:26:05</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2014-04-20 11:59:17</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=41/Plasmyd">
+    <acquired_on>2013-10-23</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/plasmyd</acquiree_cb_url>
+    <acquiree_city>San Diego</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>San Diego</acquiree_region>
+    <acquiree_uuid>8d2a5627-8f78-e83a-a073-b2513571fd83</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/academia-edu</acquirer_cb_url>
+    <acquirer_city>San Francisco</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Academia.edu</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>ec346518-e5a7-2330-daa3-259992890c01</acquirer_uuid>
+    <acquisition_uuid>36fc245e-d35f-97b9-044f-b641355c97c4</acquisition_uuid>
+    <created_at>2013-10-23 17:29:40</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2014-04-20 11:59:17</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=42/SoCoCare">
+    <acquired_on>2013-10-23</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/sococare</acquiree_cb_url>
+    <acquiree_uuid>05f88457-1f67-afce-3aff-c54e0ef80402</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/five9</acquirer_cb_url>
+    <acquirer_city>San Ramon</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Five9 Inc</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>0bb21e55-f781-de03-0978-477cfdbb9338</acquirer_uuid>
+    <acquisition_uuid>6f48a64e-6f33-7b83-fd7c-964b6ff68b2a</acquisition_uuid>
+    <created_at>2013-10-24 04:05:24</created_at>
+    <updated_at>2014-04-20 11:59:19</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=43/Tele2">
+    <acquired_on>2013-10-23</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/tele2</acquiree_cb_url>
+    <acquiree_city>Stockholm</acquiree_city>
+    <acquiree_country_code>SWE</acquiree_country_code>
+    <acquiree_region>Stockholm</acquiree_region>
+    <acquiree_uuid>65c84659-5da9-9626-09fc-7b0a6c3b16b1</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/telenor</acquirer_cb_url>
+    <acquirer_city>Fornebu</acquirer_city>
+    <acquirer_country_code>NOR</acquirer_country_code>
+    <acquirer_name>Telenor</acquirer_name>
+    <acquirer_region>Fornebu</acquirer_region>
+    <acquirer_uuid>c2ca7bb1-b7a3-e925-66ad-d87e19201f8c</acquirer_uuid>
+    <acquisition_uuid>6d9c55d0-0a7b-9691-9ca6-bf4cec83e077</acquisition_uuid>
+    <created_at>2013-10-23 11:14:04</created_at>
+    <price>775000000</price>
+    <price_currency_code>SEK</price_currency_code>
+    <updated_at>2014-04-20 11:59:17</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=44/Aplifi">
+    <acquired_on>2013-10-22</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/aplifi</acquiree_cb_url>
+    <acquiree_city>Salt Lake City</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Salt Lake City</acquiree_region>
+    <acquiree_uuid>0a1ce6e8-bb03-ee9f-de5b-36ee6dca77d0</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/internet-pipeline</acquirer_cb_url>
+    <acquirer_city>Exton</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>iPipeline</acquirer_name>
+    <acquirer_region>Philadelphia</acquirer_region>
+    <acquirer_state_code>PA</acquirer_state_code>
+    <acquirer_uuid>5c29296a-47e5-5906-9f21-474e47558245</acquirer_uuid>
+    <acquisition_uuid>43793b96-2762-3486-3927-a6599309def4</acquisition_uuid>
+    <created_at>2013-10-23 11:01:55</created_at>
+    <state_code>UT</state_code>
+    <updated_at>2014-04-20 11:59:16</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=45/FlexyCore">
+    <acquired_on>2013-10-22</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/flexycore</acquiree_cb_url>
+    <acquiree_city>Rennes</acquiree_city>
+    <acquiree_country_code>FRA</acquiree_country_code>
+    <acquiree_region>Rennes</acquiree_region>
+    <acquiree_uuid>91b973f9-e0ab-b0e2-f960-8b044e2fbd65</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/google</acquirer_cb_url>
+    <acquirer_city>Mountain View</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Google</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>6acfa7da-1dbd-936e-d985-cf07a1b27711</acquirer_uuid>
+    <acquisition_uuid>3d7751b8-1f9b-89f1-8398-b031d605e819</acquisition_uuid>
+    <created_at>2013-10-22 12:43:01</created_at>
+    <price_usd>23000000</price_usd>
+    <updated_at>2015-06-05 19:29:00</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=46/Openera">
+    <acquired_on>2013-10-22</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/openera</acquiree_cb_url>
+    <acquiree_city>Ottawa</acquiree_city>
+    <acquiree_country_code>CAN</acquiree_country_code>
+    <acquiree_region>Ottawa</acquiree_region>
+    <acquiree_uuid>a84279b7-0bc1-a637-4499-31fbf53cfadf</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/ipeak-networks</acquirer_cb_url>
+    <acquirer_city>Ottawa</acquirer_city>
+    <acquirer_country_code>CAN</acquirer_country_code>
+    <acquirer_name>LiveQoS</acquirer_name>
+    <acquirer_region>Ottawa</acquirer_region>
+    <acquirer_state_code>ON</acquirer_state_code>
+    <acquirer_uuid>d9bcbf6d-b973-d151-05b2-620a6a54f52b</acquirer_uuid>
+    <acquisition_type>Acquisition</acquisition_type>
+    <acquisition_uuid>2dba4c28-4379-adea-aa02-939d30620eb4</acquisition_uuid>
+    <created_at>2013-10-23 11:09:58</created_at>
+    <state_code>ON</state_code>
+    <updated_at>2016-09-14 10:12:05.944176</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=47/Shutl">
+    <acquired_on>2013-10-22</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/shutl</acquiree_cb_url>
+    <acquiree_city>London</acquiree_city>
+    <acquiree_country_code>GBR</acquiree_country_code>
+    <acquiree_region>London</acquiree_region>
+    <acquiree_uuid>494c027a-c5c8-d6f6-7020-1d5799673fd3</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/ebay</acquirer_cb_url>
+    <acquirer_city>San Jose</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>eBay</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>e56b0ceb-bb30-bbec-805e-d5dc7412dcb1</acquirer_uuid>
+    <acquisition_uuid>69e77ac1-75ee-3b61-d52b-396c14644a59</acquisition_uuid>
+    <created_at>2013-10-22 18:38:09</created_at>
+    <updated_at>2014-04-20 11:59:15</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=48/TribeHR">
+    <acquired_on>2013-10-22</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/tribe-hr</acquiree_cb_url>
+    <acquiree_city>Kitchener</acquiree_city>
+    <acquiree_country_code>CAN</acquiree_country_code>
+    <acquiree_region>Toronto</acquiree_region>
+    <acquiree_uuid>ab3e14ba-7acb-8a53-a0c3-86d797b51e0a</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/netsuite</acquirer_cb_url>
+    <acquirer_city>San Mateo</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>NetSuite</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>9402f169-bc93-0870-03f9-8baa654aab2c</acquirer_uuid>
+    <acquisition_uuid>5dbfc49f-b669-f3be-457b-6592f82a70f3</acquisition_uuid>
+    <created_at>2013-10-23 10:52:31</created_at>
+    <state_code>ON</state_code>
+    <updated_at>2014-04-20 11:59:16</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=49/Mission+Community+Bank">
+    <acquired_on>2013-10-21</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/mission-community-bank</acquiree_cb_url>
+    <acquiree_city>San Luis Obispo</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>San Luis Obispo</acquiree_region>
+    <acquiree_uuid>5fc8106f-7584-c198-f20b-94347f4098c4</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/heritage-oaks-bank</acquirer_cb_url>
+    <acquirer_city>Paso Robles</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Heritage Oaks Bank</acquirer_name>
+    <acquirer_region>CA - Other</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>04e76bca-f739-16d2-329b-6d68fab35df4</acquirer_uuid>
+    <acquisition_uuid>7f6c9513-8f31-1c3e-e573-e052534df26e</acquisition_uuid>
+    <created_at>2013-10-29 03:14:08</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2014-04-20 11:59:29</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=5/Labour+Solutions+Australia">
+    <acquired_on>2013-10-31</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/labour-solutions-australia</acquiree_cb_url>
+    <acquiree_city>Milton</acquiree_city>
+    <acquiree_country_code>AUS</acquiree_country_code>
+    <acquiree_region>Sydney</acquiree_region>
+    <acquiree_uuid>aafb7eec-7d86-03ab-e037-a1266bda3f02</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/adcorp</acquirer_cb_url>
+    <acquirer_city>Bryanston</acquirer_city>
+    <acquirer_country_code>ZAF</acquirer_country_code>
+    <acquirer_name>Adcorp</acquirer_name>
+    <acquirer_region>Johannesburg</acquirer_region>
+    <acquirer_uuid>7c513065-a8cc-f4f3-eeb0-d6b0b779ccae</acquirer_uuid>
+    <acquisition_uuid>d957b8e3-10c8-a20c-4fd3-214eeaa0a029</acquisition_uuid>
+    <created_at>2013-10-31 12:42:55</created_at>
+    <updated_at>2014-04-20 11:59:39</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=50/Symmetricom">
+    <acquired_on>2013-10-21</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/symmetricom</acquiree_cb_url>
+    <acquiree_city>San Jose</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>SF Bay Area</acquiree_region>
+    <acquiree_uuid>28e3f81c-ec90-d30c-8aff-5a94375e36bd</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/microsemi-corporation</acquirer_cb_url>
+    <acquirer_city>Aliso Viejo</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Microsemi</acquirer_name>
+    <acquirer_region>Anaheim</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>9203e39d-8100-f96e-e1f5-7c856e6d0955</acquirer_uuid>
+    <acquisition_uuid>c4f80a74-9c92-724b-a871-4d62f0dc1f4c</acquisition_uuid>
+    <created_at>2013-10-22 04:51:53</created_at>
+    <state_code>CA</state_code>
+    <updated_at>2014-04-20 11:59:13</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=6/Mivisa">
+    <acquired_on>2013-10-31</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/mivisa</acquiree_cb_url>
+    <acquiree_city>Las Torres De Cotillas</acquiree_city>
+    <acquiree_country_code>ESP</acquiree_country_code>
+    <acquiree_region>ESP - Other</acquiree_region>
+    <acquiree_uuid>f8d1ac7f-0365-10f9-03dd-953b75cbb10e</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/crown-holdings</acquirer_cb_url>
+    <acquirer_city>Philadelphia</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Crown Holdings</acquirer_name>
+    <acquirer_region>Philadelphia</acquirer_region>
+    <acquirer_state_code>PA</acquirer_state_code>
+    <acquirer_uuid>0676e551-3ea5-0d33-a35a-50f1eac75103</acquirer_uuid>
+    <acquisition_uuid>066b523b-47f3-817d-aecf-e15b8b26b1fc</acquisition_uuid>
+    <created_at>2013-10-31 12:23:04</created_at>
+    <updated_at>2014-04-20 11:59:39</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=7/MortgageCEO">
+    <acquired_on>2013-10-31</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/mortgageceo</acquiree_cb_url>
+    <acquiree_city>Worcester</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Worcester</acquiree_region>
+    <acquiree_uuid>0db929ce-32a9-b505-aca0-ec5552f767b9</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/ellie-mae</acquirer_cb_url>
+    <acquirer_city>Pleasanton</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Ellie Mae</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>8fd1de43-c8ee-e9c1-2e4e-86deb4650ffd</acquirer_uuid>
+    <acquisition_uuid>64968743-9c21-a86b-a862-4b4ee614d13c</acquisition_uuid>
+    <created_at>2013-11-01 05:10:55</created_at>
+    <state_code>MA</state_code>
+    <updated_at>2014-04-20 11:59:40</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=8/Tekpub">
+    <acquired_on>2013-10-31</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/tekpub</acquiree_cb_url>
+    <acquiree_city>Farmington</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>UT - Other</acquiree_region>
+    <acquiree_uuid>310a18f3-de93-4e03-8044-f82689af4b78</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/pluralsight</acquirer_cb_url>
+    <acquirer_city>Lehi</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Pluralsight</acquirer_name>
+    <acquirer_region>Salt Lake City</acquirer_region>
+    <acquirer_state_code>UT</acquirer_state_code>
+    <acquirer_uuid>29870a7c-07ed-5748-2ef2-87c26fa8eb3c</acquirer_uuid>
+    <acquisition_uuid>ea260228-e650-babe-201c-0f76e4235578</acquisition_uuid>
+    <created_at>2013-11-01 05:05:57</created_at>
+    <state_code>UT</state_code>
+    <updated_at>2014-04-20 11:59:40</updated_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/acquisitions.csv#row=9/Full+Slate">
+    <acquired_on>2013-10-30</acquired_on>
+    <acquiree_cb_url>https://www.crunchbase.com/organization/full-slate</acquiree_cb_url>
+    <acquiree_city>Seattle</acquiree_city>
+    <acquiree_country_code>USA</acquiree_country_code>
+    <acquiree_region>Seattle</acquiree_region>
+    <acquiree_uuid>57cfec1b-009b-998e-8810-efedc502f048</acquiree_uuid>
+    <acquirer_cb_url>https://www.crunchbase.com/organization/intuit</acquirer_cb_url>
+    <acquirer_city>Mountain View</acquirer_city>
+    <acquirer_country_code>USA</acquirer_country_code>
+    <acquirer_name>Intuit</acquirer_name>
+    <acquirer_region>SF Bay Area</acquirer_region>
+    <acquirer_state_code>CA</acquirer_state_code>
+    <acquirer_uuid>fbef6457-9149-72cf-af57-7cfbe15c05f8</acquirer_uuid>
+    <acquisition_uuid>814d3081-5710-5bdc-5e44-c8cea5834e3b</acquisition_uuid>
+    <created_at>2013-10-31 00:21:51</created_at>
+    <state_code>WA</state_code>
+    <updated_at>2014-04-20 11:59:38</updated_at>
+  </rdf:Description>
+</rdf:RDF>

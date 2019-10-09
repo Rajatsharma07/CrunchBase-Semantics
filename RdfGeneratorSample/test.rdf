@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://www.example.org/cb_objects#row=2/"
+  xmlns:ns2="http://www.example.org/cb_objects#row=1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.example.org/cb_objects#row=2/c:2">
+    <ns1:entity_type>Company</ns1:entity_type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/cb_objects#row=1/c:1">
+    <ns2:entity_type>Company</ns2:entity_type>
+    <ns2:name>WetName</ns2:name>
+  </rdf:Description>
+</rdf:RDF>

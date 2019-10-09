@@ -1,0 +1,4 @@
+http://www.crunchbased.org/people/Ben%20Elowitz	http://www.crunchbased.org/people/birthplace	None
+http://www.crunchbased.org/people/Ben%20Elowitz	http://www.crunchbased.org/people/affliation_name	Blue Nile
+http://www.crunchbased.org/people/Ben%20Elowitz	http://www.crunchbased.org/people/object_id	p:2
+http://www.crunchbased.org/people/Ben%20Elowitz	http://www.crunchbased.org/people/name	Ben Elowitz
