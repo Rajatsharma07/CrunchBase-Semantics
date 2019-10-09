@@ -14,10 +14,10 @@ except ImportError:
 
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 #Variables that contains the user credentials to access Twitter API
-access_token = "798528063323697152-9zxLxUPeHRpmn583YJ0bRulPiINZnTw"
-access_token_secret = "rujFHQMtZneJt9j0EtccAsviCSh32nRles6gCmBRiIRKb"
-consumer_key = "IG75MUvqndRk1nDCwUTzd4GZc"
-consumer_secret = "C9K6mq1YSECTiK1hT3IYLAi2NQ9mjRkwFrGYqzI7ziyPE5oRdC"
+access_token = "xxxxx"
+access_token_secret = "xxxxx"
+consumer_key = "xxxxx"
+consumer_secret = "xxxxx"
 
 csvfile = open('my_scraped_tweets.csv','wb')
 
